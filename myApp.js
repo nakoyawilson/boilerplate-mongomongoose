@@ -21,12 +21,6 @@ const createAndSavePerson = (done) => {
   });
 };
 
-const someFunc = function (done) {
-  //... do something (risky) ...
-  if (error) return done(error);
-  done(null, result);
-};
-
 const createManyPeople = (arrayOfPeople, done) => {
   done(null /*, data*/);
 };
